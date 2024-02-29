@@ -13,8 +13,6 @@ public class Main {
         Fruit[] fruitsToBuy = {f1, f2, f3};
 
         Fruit f4 = new Fruit("Watermelon");
-        System.out.println(f1.getName());/*questa è una prova poichè non so per quale motivo ma
-         gli ogetti istanziati qunado li mando in stampa danno null sul mio intellij*/
 
 
         System.out.println("have we bought " + f4.getName() + "? " + getFruitSet(fruitsToBuy).contains(f4));
